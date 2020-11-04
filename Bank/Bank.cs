@@ -9,7 +9,7 @@ namespace Bank
     // a simple euro current bank account
     public class CurrentAccount
     {
-        private double balance;                             // the account balance
+        public double balance;                             // the account balance
         private double overdraftLimit;
 
         // + account number etc.
