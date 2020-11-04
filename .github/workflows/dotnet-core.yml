@@ -21,6 +21,12 @@ jobs:
     - name: Build
       run: dotnet build --configuration Release --no-restore
 
+    - name: SonarCloud Scan
+      uses: sonarsource/sonarcloud-github-action@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+
     # run standard unit tests
     - name: Run Unit Tests
       run: dotnet test BankUnitTestProject/BankUnitTestProject.csproj --no-restore --verbosity normal
