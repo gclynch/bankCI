@@ -23,13 +23,16 @@ jobs:
     - name: Build
       run: dotnet build --configuration Release --no-restore
 
-    - name: SonarCloud Scan
-      uses: sonarsource/sonarcloud-github-action@master
+    - name: Sonarscanner for dotnet
+      uses: Secbyte/dotnet-sonarscanner@v2.3
       with:
-        projectBaseDir: Bank
+        buildCommand: dotnet build .
+        projectKey: Bank_CI_GA
+        projectName: Bank_CI_GA
+        sonarOrganisation: sonarcloudorg-gc
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}               # auto generated in repo
-        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}                 # add secret to repo for this
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     # run standard unit tests
     - name: Run Unit Tests
