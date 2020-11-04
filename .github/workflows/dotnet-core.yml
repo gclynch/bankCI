@@ -35,7 +35,7 @@ jobs:
 
     # upload NuGet Package
     - name: upload Nuget package as articat
-    - uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v2
       with:
         name: NuGet package
         path: ./*.nupkg
