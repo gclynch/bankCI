@@ -15,8 +15,8 @@ jobs:
  #     with:
  #       dotnet-version: 3.1.301
 
-    - name: Install dependencies
-      run: dotnet restore
+ #   - name: Install dependencies
+ #     run: dotnet restore
 
     - name: Build
       run: dotnet build --configuration Release --no-restore
@@ -34,6 +34,7 @@ jobs:
       run: dotnet pack /p:PackageVersion=1.0.0 --configuration Release --output .
 
     # upload NuGet Package
+    - name: upload Nuget package as articat
     - uses: actions/upload-artifact@v2
       with:
         name: NuGet package
