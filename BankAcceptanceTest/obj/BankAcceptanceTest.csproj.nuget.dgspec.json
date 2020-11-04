@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GC\\csd\\bankCI 2020\\BankAcceptanceTest\\BankAcceptanceTest.csproj": {}
+    "C:\\GC\\Github Actions\\bankCI 2020\\BankAcceptanceTest\\BankAcceptanceTest.csproj": {}
   },
   "projects": {
-    "C:\\GC\\csd\\bankCI 2020\\BankAcceptanceTest\\BankAcceptanceTest.csproj": {
+    "C:\\GC\\Github Actions\\bankCI 2020\\BankAcceptanceTest\\BankAcceptanceTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GC\\csd\\bankCI 2020\\BankAcceptanceTest\\BankAcceptanceTest.csproj",
+        "projectUniqueName": "C:\\GC\\Github Actions\\bankCI 2020\\BankAcceptanceTest\\BankAcceptanceTest.csproj",
         "projectName": "BankAcceptanceTest",
-        "projectPath": "C:\\GC\\csd\\bankCI 2020\\BankAcceptanceTest\\BankAcceptanceTest.csproj",
-        "packagesPath": "C:\\Users\\gary\\.nuget\\packages\\",
-        "outputPath": "C:\\GC\\csd\\bankCI 2020\\BankAcceptanceTest\\obj\\",
+        "projectPath": "C:\\GC\\Github Actions\\bankCI 2020\\BankAcceptanceTest\\BankAcceptanceTest.csproj",
+        "packagesPath": "C:\\Users\\gclynch\\.nuget\\packages\\",
+        "outputPath": "C:\\GC\\Github Actions\\bankCI 2020\\BankAcceptanceTest\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\GC\\csd\\bankCI 2020\\NuGet.Config",
-          "C:\\Users\\gary\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gclynch\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\GC\\csd\\bankCI 2020\\Bank\\Bank.csproj": {
-                "projectPath": "C:\\GC\\csd\\bankCI 2020\\Bank\\Bank.csproj"
+              "C:\\GC\\Github Actions\\bankCI 2020\\Bank\\Bank.csproj": {
+                "projectPath": "C:\\GC\\Github Actions\\bankCI 2020\\Bank\\Bank.csproj"
               }
             }
           }
@@ -84,25 +80,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\GC\\csd\\bankCI 2020\\Bank\\Bank.csproj": {
+    "C:\\GC\\Github Actions\\bankCI 2020\\Bank\\Bank.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GC\\csd\\bankCI 2020\\Bank\\Bank.csproj",
+        "projectUniqueName": "C:\\GC\\Github Actions\\bankCI 2020\\Bank\\Bank.csproj",
         "projectName": "Bank",
-        "projectPath": "C:\\GC\\csd\\bankCI 2020\\Bank\\Bank.csproj",
-        "packagesPath": "C:\\Users\\gary\\.nuget\\packages\\",
-        "outputPath": "C:\\GC\\csd\\bankCI 2020\\Bank\\obj\\",
+        "projectPath": "C:\\GC\\Github Actions\\bankCI 2020\\Bank\\Bank.csproj",
+        "packagesPath": "C:\\Users\\gclynch\\.nuget\\packages\\",
+        "outputPath": "C:\\GC\\Github Actions\\bankCI 2020\\Bank\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\GC\\csd\\bankCI 2020\\NuGet.Config",
-          "C:\\Users\\gary\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gclynch\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -140,7 +132,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

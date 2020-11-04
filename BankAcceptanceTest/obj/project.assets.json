@@ -2439,7 +2439,7 @@
       ]
     },
     "NETStandard.Library/2.0.0": {
-      "sha512": "sn4JwjEN5iNfqc0bd0Qje5oBZBB9wyuNn4GkQvEzfKVnZ3QH0HHoN9exxydlJGptiCMVdAZu7At9TNj0r8Z0yg==",
+      "sha512": "7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
       "type": "package",
       "path": "netstandard.library/2.0.0",
       "files": [
@@ -3585,7 +3585,7 @@
       ]
     },
     "System.Configuration.ConfigurationManager/4.5.0": {
-      "sha512": "+2SYYKwbN0n+9SrBanflZdaVleFkytEfTNzOu+f3SK0vROMMrorpw1UJyHJQ1ZooughRxPmLj8Fh5N2tSe7sdA==",
+      "sha512": "UIFvaFfuKhLr9u5tWMxmVoDPkFeD+Qv8gUuap4aZgVGYSYMdERck4OhLN/2gulAc0nYTEigWXSJNNWshrmxnng==",
       "type": "package",
       "path": "system.configuration.configurationmanager/4.5.0",
       "files": [
@@ -5715,7 +5715,7 @@
       ]
     },
     "System.Security.Cryptography.ProtectedData/4.5.0": {
-      "sha512": "s/MFK8BvgtejZj5a8qAPDXEGBtWkpFX98qwQP/wqVa9CgIC7LrKHxDFdlN5x6afGAb0ZVBVGIZlCdBLnO2QjZw==",
+      "sha512": "wLBKzFnDCxP12VL9ANydSYhk59fC4cvOr9ypYQLPnAj48NQIhqnjdD2yhP8yEKyBJEjERWS9DisKL7rX5eU25Q==",
       "type": "package",
       "path": "system.security.cryptography.protecteddata/4.5.0",
       "files": [
@@ -6229,7 +6229,7 @@
       ]
     },
     "System.Threading.Tasks.Extensions/4.4.0": {
-      "sha512": "lPQSed6uHvDSnBd8yvsKVL+B5RrccIC58a6No9eQfXBgM9L6kSoBzS5Gq30EjyS1bEXCknGuRzMcD9DMrRUqbg==",
+      "sha512": "SPKfFGbpQsK5Srz2Kq3URgvC90yoOyBE8H1quDA2+MAJ2HAzFmV3biOgPv2Ck3mPAvdKngo3QHi2BNwUQDRVvA==",
       "type": "package",
       "path": "system.threading.tasks.extensions/4.4.0",
       "files": [
@@ -6330,7 +6330,7 @@
       ]
     },
     "System.ValueTuple/4.4.0": {
-      "sha512": "6FvjECwwsvwtdnm2uD91MlFEgId6C2SWsdZk23gFpynHQ9x5ruqjsfEadb0VNzpkEHDQ6cq31CXUv3ouT09EHA==",
+      "sha512": "BahUww/+mdP4ARCAh2RQhQTg13wYLVrBb9SYVgW8ZlrwjraGCXHGjo0oIiUfZ34LUZkMMR+RAzR7dEY4S1HeQQ==",
       "type": "package",
       "path": "system.valuetuple/4.4.0",
       "files": [
@@ -6664,24 +6664,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gary\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\gclynch\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GC\\csd\\bankCI 2020\\BankAcceptanceTest\\BankAcceptanceTest.csproj",
+      "projectUniqueName": "C:\\GC\\Github Actions\\bankCI 2020\\BankAcceptanceTest\\BankAcceptanceTest.csproj",
       "projectName": "BankAcceptanceTest",
-      "projectPath": "C:\\GC\\csd\\bankCI 2020\\BankAcceptanceTest\\BankAcceptanceTest.csproj",
-      "packagesPath": "C:\\Users\\gary\\.nuget\\packages\\",
-      "outputPath": "C:\\GC\\csd\\bankCI 2020\\BankAcceptanceTest\\obj\\",
+      "projectPath": "C:\\GC\\Github Actions\\bankCI 2020\\BankAcceptanceTest\\BankAcceptanceTest.csproj",
+      "packagesPath": "C:\\Users\\gclynch\\.nuget\\packages\\",
+      "outputPath": "C:\\GC\\Github Actions\\bankCI 2020\\BankAcceptanceTest\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\GC\\csd\\bankCI 2020\\NuGet.Config",
-        "C:\\Users\\gary\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gclynch\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6694,8 +6689,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\GC\\csd\\bankCI 2020\\Bank\\Bank.csproj": {
-              "projectPath": "C:\\GC\\csd\\bankCI 2020\\Bank\\Bank.csproj"
+            "C:\\GC\\Github Actions\\bankCI 2020\\Bank\\Bank.csproj": {
+              "projectPath": "C:\\GC\\Github Actions\\bankCI 2020\\Bank\\Bank.csproj"
             }
           }
         }
@@ -6747,7 +6742,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

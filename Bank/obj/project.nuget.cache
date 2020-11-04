@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ef9wBE0Ead07+OLoyHOgk7C562wEelXM4+9iUOiPZFPxSYHNZD9IIGaTX3LHGDQ0X1P8gbTVg5ZmHbTQH8CbLw==",
+  "dgSpecHash": "UpiMujGrEQYE7iFMrMqz5rFewdylRMz+4iZiJNLJvnrZfg7uvE0Hi9rEXRjwmZjZI+Lguf7HTQnd/23XiRbLZA==",
   "success": true,
-  "projectFilePath": "C:\\GC\\csd\\bankCI 2020\\Bank\\Bank.csproj",
+  "projectFilePath": "C:\\GC\\Github Actions\\bankCI 2020\\Bank\\Bank.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

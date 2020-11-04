@@ -14,7 +14,7 @@ namespace BankUnitTestProject
             CurrentAccount acc = new CurrentAccount();
             acc.Deposit(100);
             acc.Deposit(200);
-            Assert.AreEqual(acc.Balance, 300);
+            Assert.AreEqual(300, acc.Balance);
         }
 
         [TestMethod]
@@ -31,7 +31,7 @@ namespace BankUnitTestProject
             acc.Deposit(100);
             acc.Withdraw(50);
             acc.Deposit(150);
-            Assert.AreEqual(acc.Balance, 200);
+            Assert.AreEqual(200, acc.Balance);
         }
 
         [TestMethod]
@@ -41,7 +41,7 @@ namespace BankUnitTestProject
             acc.OverdraftLimit = 1000;
             acc.Deposit(100);
             acc.Withdraw(1000);
-            Assert.AreEqual(acc.Balance, -900);
+            Assert.AreEqual(-900, acc.Balance);
         }
 
         [TestMethod]

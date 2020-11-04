@@ -1,23 +1,40 @@
-name: .NET Core
+name: build and package .Net core
 
 on:
-  push:
-    branches: [ master ]
+  workflow_dispatch:                                # manually triggered
 
 jobs:
-  build:
+  build_package:
 
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
-    - name: Setup .NET Core
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: 3.1.301
+
+ #   - name: Setup .NET Core
+ #     uses: actions/setup-dotnet@v1
+ #     with:
+ #       dotnet-version: 3.1.301
+
     - name: Install dependencies
       run: dotnet restore
+
     - name: Build
       run: dotnet build --configuration Release --no-restore
-    - name: Test
-      run: dotnet test --no-restore --verbosity normal
+
+    # run standard unit tests
+    - name: Run Unit Tests
+      run: dotnet test BankUnitTestProject/BankUnitTestProject.csproj --no-restore --verbosity normal
+
+    # run Specflow+ tests
+    - name: Run Acceptance Tests
+      run: dotnet test BankAcceptanceTest/BankAcceptanceTest.csproj --no-restore --verbosity normal
+
+    # create NuGet package
+    - name: Package for NuGet
+      run: dotnet pack /p:PackageVersion=1.0.0 --configuration Release --output .
+
+    # upload NuGet Package
+    - uses: actions/upload-artifact@v2
+      with:
+        name: NuGet package
+        path: ./*.nupkg
