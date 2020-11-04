@@ -25,9 +25,11 @@ jobs:
 
     - name: SonarCloud Scan
       uses: sonarsource/sonarcloud-github-action@master
+      with:
+        projectBaseDir: Bank
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}               # auto generated in repo
-        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}                 # add secret
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}                 # add secret to repo for this
 
     # run standard unit tests
     - name: Run Unit Tests
