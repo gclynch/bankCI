@@ -317,7 +317,6 @@ C:\GC\Github Actions\bankCI 2020\BankAcceptanceTest\bin\Debug\netcoreapp3.1\zh-H
 C:\GC\Github Actions\bankCI 2020\BankAcceptanceTest\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\GC\Github Actions\bankCI 2020\BankAcceptanceTest\bin\Debug\netcoreapp3.1\Bank.dll
 C:\GC\Github Actions\bankCI 2020\BankAcceptanceTest\bin\Debug\netcoreapp3.1\Bank.pdb
-C:\GC\Github Actions\bankCI 2020\BankAcceptanceTest\obj\Debug\netcoreapp3.1\BankAcceptanceTest.csprojAssemblyReference.cache
 C:\GC\Github Actions\bankCI 2020\BankAcceptanceTest\obj\Debug\netcoreapp3.1\BankAcceptanceTest.AssemblyInfoInputs.cache
 C:\GC\Github Actions\bankCI 2020\BankAcceptanceTest\obj\Debug\netcoreapp3.1\BankAcceptanceTest.AssemblyInfo.cs
 C:\GC\Github Actions\bankCI 2020\BankAcceptanceTest\obj\Debug\netcoreapp3.1\BankAcceptanceTest.csproj.CoreCompileInputs.cache
@@ -325,3 +324,5 @@ C:\GC\Github Actions\bankCI 2020\BankAcceptanceTest\obj\Debug\netcoreapp3.1\Bank
 C:\GC\Github Actions\bankCI 2020\BankAcceptanceTest\obj\Debug\netcoreapp3.1\BankAcceptanceTest.dll
 C:\GC\Github Actions\bankCI 2020\BankAcceptanceTest\obj\Debug\netcoreapp3.1\BankAcceptanceTest.pdb
 C:\GC\Github Actions\bankCI 2020\BankAcceptanceTest\obj\Debug\netcoreapp3.1\BankAcceptanceTest.genruntimeconfig.cache
+C:\GC\Github Actions\bankCI 2020\BankAcceptanceTest\obj\Debug\netcoreapp3.1\BankAcceptanceTest.csproj.AssemblyReference.cache
+C:\GC\Github Actions\bankCI 2020\BankAcceptanceTest\obj\Debug\netcoreapp3.1\BankAcceptanceTest.GeneratedMSBuildEditorConfig.editorconfig

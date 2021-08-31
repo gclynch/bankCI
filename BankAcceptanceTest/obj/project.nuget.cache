@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "homJ2sosbLz6KS4MQ60KP2Y95oqMfC1AcU8HFzCsHtw8GEMITMiFl6z2J921nkSayevmdiAEIILQUiJ1d6sgiA==",
+  "dgSpecHash": "2V8mducZf3UdOpQo4RuE6ZUVl8848PiUblqBELzzQQdjhHtXsIWqiq33fPKuBfHTQ7QdkYlOtiNwTaeMMtvmsg==",
   "success": true,
   "projectFilePath": "C:\\GC\\Github Actions\\bankCI 2020\\BankAcceptanceTest\\BankAcceptanceTest.csproj",
   "expectedPackageFiles": [
