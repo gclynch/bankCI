@@ -1,4 +1,4 @@
-name: build and package .Net core
+name: build and package
 
 on:
   workflow_dispatch:                                # manually triggered
@@ -20,7 +20,7 @@ jobs:
     - name: Install dependencies
       run: dotnet restore
 
-    - name: Build
+    - name: Build for release
       run: dotnet build --configuration Release --no-restore 
 
     - name: Sonarscanner for dotnet
@@ -47,7 +47,7 @@ jobs:
       run: dotnet pack /p:PackageVersion=1.0.0 --configuration Release --output .
 
     # upload NuGet Package
-    - name: upload Nuget package as articat
+    - name: Upload Nuget package as artifact
       uses: actions/upload-artifact@v2
       with:
         name: NuGet package
