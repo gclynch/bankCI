@@ -35,7 +35,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     # run standard unit tests
-    - name: Run Unit Tests 2
+    - name: Run Unit Tests
       run: dotnet test BankUnitTestProject/BankUnitTestProject.csproj --no-restore --verbosity normal -l:trx
 
     # run Specflow+ tests
