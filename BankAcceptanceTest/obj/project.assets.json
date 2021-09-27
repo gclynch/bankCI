@@ -6669,11 +6669,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GC\\Github Actions\\bankCI 2020\\BankAcceptanceTest\\BankAcceptanceTest.csproj",
+      "projectUniqueName": "C:\\GC\\Github Actions\\bankCI 2021\\BankAcceptanceTest\\BankAcceptanceTest.csproj",
       "projectName": "BankAcceptanceTest",
-      "projectPath": "C:\\GC\\Github Actions\\bankCI 2020\\BankAcceptanceTest\\BankAcceptanceTest.csproj",
+      "projectPath": "C:\\GC\\Github Actions\\bankCI 2021\\BankAcceptanceTest\\BankAcceptanceTest.csproj",
       "packagesPath": "C:\\Users\\gclynch\\.nuget\\packages\\",
-      "outputPath": "C:\\GC\\Github Actions\\bankCI 2020\\BankAcceptanceTest\\obj\\",
+      "outputPath": "C:\\GC\\Github Actions\\bankCI 2021\\BankAcceptanceTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gclynch\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6690,8 +6690,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\GC\\Github Actions\\bankCI 2020\\Bank\\Bank.csproj": {
-              "projectPath": "C:\\GC\\Github Actions\\bankCI 2020\\Bank\\Bank.csproj"
+            "C:\\GC\\Github Actions\\bankCI 2021\\Bank\\Bank.csproj": {
+              "projectPath": "C:\\GC\\Github Actions\\bankCI 2021\\Bank\\Bank.csproj"
             }
           }
         }
@@ -6744,7 +6744,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

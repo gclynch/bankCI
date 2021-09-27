@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="32505ac3-941b-4d7c-8fc4-b0ebe467e0a7" name="gclynch@TU-3P78063 2021-09-27 16:22:46" runUser="STF\gclynch" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-09-27T16:22:46.8372520+01:00" queuing="2021-09-27T16:22:46.8372525+01:00" start="2021-09-27T16:22:45.8432127+01:00" finish="2021-09-27T16:22:46.8427502+01:00" />
+  <TestSettings name="default" id="fb3692a7-b3bf-45bb-a5d0-ed4c8e6e8c09">
+    <Deployment runDeploymentRoot="gclynch_TU-3P78063_2021-09-27_16_22_46" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="c62d6e09-70ca-423f-b72d-ca9bfd5ba4ce" testId="2c48c28a-c705-bbf0-b570-09fe684cb7b4" testName="TransferFunds" computerName="TU-3P78063" duration="00:00:00.0021730" startTime="2021-09-27T16:22:46.0000000+01:00" endTime="2021-09-27T16:22:46.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c62d6e09-70ca-423f-b72d-ca9bfd5ba4ce" />
+    <UnitTestResult executionId="16a88b15-dc8e-4a50-a927-0ac39010a9c4" testId="3f2d9db8-2b1f-7116-1741-82e7cd65b541" testName="WithdrawMoneyWhenThereIsThereIsAnOverdraftFacility" computerName="TU-3P78063" duration="00:00:00.0013530" startTime="2021-09-27T16:22:46.0000000+01:00" endTime="2021-09-27T16:22:46.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16a88b15-dc8e-4a50-a927-0ac39010a9c4">
+      <Output>
+        <StdOut>Given the balance on my account is 200&#xD;
+-&gt; done: WithdrawFeatureSteps.GivenTheBalanceOnMyAccountIs(200) (0.0s)&#xD;
+And there is an overdraft limit of 500 on the account&#xD;
+-&gt; done: WithdrawFeatureSteps.GivenThereIsAnOverdraftLimitOfOnTheAccount(500) (0.0s)&#xD;
+When I withdraw 300&#xD;
+-&gt; done: WithdrawFeatureSteps.WhenIWithdraw(300) (0.0s)&#xD;
+Then the balance on the account should be -100&#xD;
+-&gt; done: WithdrawFeatureSteps.ThenTheBalanceOnTheAccountShouldBe(-100) (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ea83075a-be2c-4bf3-8fe4-dbb178d41288" testId="a531d098-207c-4532-8446-890ddb90c877" testName="WithdrawMoneyWhenThereIsNoOverdraftFacility" computerName="TU-3P78063" duration="00:00:00.0299070" startTime="2021-09-27T16:22:46.0000000+01:00" endTime="2021-09-27T16:22:46.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea83075a-be2c-4bf3-8fe4-dbb178d41288">
+      <Output>
+        <StdOut>Given the balance on my account is 100&#xD;
+-&gt; done: WithdrawFeatureSteps.GivenTheBalanceOnMyAccountIs(100) (0.0s)&#xD;
+When I withdraw 75&#xD;
+-&gt; done: WithdrawFeatureSteps.WhenIWithdraw(75) (0.0s)&#xD;
+Then the balance on the account should be 25&#xD;
+-&gt; done: WithdrawFeatureSteps.ThenTheBalanceOnTheAccountShouldBe(25) (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="WithdrawMoneyWhenThereIsThereIsAnOverdraftFacility" storage="c:\gc\github actions\bankci 2021\bankacceptancetest\bin\debug\netcoreapp3.1\bankacceptancetest.dll" id="3f2d9db8-2b1f-7116-1741-82e7cd65b541">
+      <Execution id="16a88b15-dc8e-4a50-a927-0ac39010a9c4" />
+      <TestMethod codeBase="C:\GC\Github Actions\bankCI 2021\BankAcceptanceTest\bin\Debug\netcoreapp3.1\BankAcceptanceTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="BankAcceptanceTest.WithdrawFeatureFeature" name="WithdrawMoneyWhenThereIsThereIsAnOverdraftFacility" />
+    </UnitTest>
+    <UnitTest name="WithdrawMoneyWhenThereIsNoOverdraftFacility" storage="c:\gc\github actions\bankci 2021\bankacceptancetest\bin\debug\netcoreapp3.1\bankacceptancetest.dll" id="a531d098-207c-4532-8446-890ddb90c877">
+      <Execution id="ea83075a-be2c-4bf3-8fe4-dbb178d41288" />
+      <TestMethod codeBase="C:\GC\Github Actions\bankCI 2021\BankAcceptanceTest\bin\Debug\netcoreapp3.1\BankAcceptanceTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="BankAcceptanceTest.WithdrawFeatureFeature" name="WithdrawMoneyWhenThereIsNoOverdraftFacility" />
+    </UnitTest>
+    <UnitTest name="TransferFunds" storage="c:\gc\github actions\bankci 2021\bankacceptancetest\bin\debug\netcoreapp3.1\bankacceptancetest.dll" id="2c48c28a-c705-bbf0-b570-09fe684cb7b4">
+      <Execution id="c62d6e09-70ca-423f-b72d-ca9bfd5ba4ce" />
+      <TestMethod codeBase="C:\GC\Github Actions\bankCI 2021\BankAcceptanceTest\bin\Debug\netcoreapp3.1\BankAcceptanceTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="BankAcceptanceTest.BankTest" name="TransferFunds" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="2c48c28a-c705-bbf0-b570-09fe684cb7b4" executionId="c62d6e09-70ca-423f-b72d-ca9bfd5ba4ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f2d9db8-2b1f-7116-1741-82e7cd65b541" executionId="16a88b15-dc8e-4a50-a927-0ac39010a9c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a531d098-207c-4532-8446-890ddb90c877" executionId="ea83075a-be2c-4bf3-8fe4-dbb178d41288" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 3.16.1.0: Test execution started&#xD;
+Running all tests in C:\GC\Github Actions\bankCI 2021\BankAcceptanceTest\bin\Debug\netcoreapp3.1\BankAcceptanceTest.dll&#xD;
+   NUnit3TestExecutor converted 3 of 3 NUnit test cases&#xD;
+NUnit Adapter 3.16.1.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

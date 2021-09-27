@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GC\\Github Actions\\bankCI 2020\\Bank\\Bank.csproj": {}
+    "C:\\GC\\Github Actions\\bankCI 2021\\Bank\\Bank.csproj": {}
   },
   "projects": {
-    "C:\\GC\\Github Actions\\bankCI 2020\\Bank\\Bank.csproj": {
+    "C:\\GC\\Github Actions\\bankCI 2021\\Bank\\Bank.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GC\\Github Actions\\bankCI 2020\\Bank\\Bank.csproj",
+        "projectUniqueName": "C:\\GC\\Github Actions\\bankCI 2021\\Bank\\Bank.csproj",
         "projectName": "Bank",
-        "projectPath": "C:\\GC\\Github Actions\\bankCI 2020\\Bank\\Bank.csproj",
+        "projectPath": "C:\\GC\\Github Actions\\bankCI 2021\\Bank\\Bank.csproj",
         "packagesPath": "C:\\Users\\gclynch\\.nuget\\packages\\",
-        "outputPath": "C:\\GC\\Github Actions\\bankCI 2020\\Bank\\obj\\",
+        "outputPath": "C:\\GC\\Github Actions\\bankCI 2021\\Bank\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gclynch\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

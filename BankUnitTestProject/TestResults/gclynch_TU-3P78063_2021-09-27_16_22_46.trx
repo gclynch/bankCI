@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="59ab9617-c61e-49ba-a69d-296ea8ff6bcd" name="gclynch@TU-3P78063 2021-09-27 16:22:46" runUser="STF\gclynch" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-09-27T16:22:46.5065709+01:00" queuing="2021-09-27T16:22:46.5065716+01:00" start="2021-09-27T16:22:45.8856419+01:00" finish="2021-09-27T16:22:46.5126151+01:00" />
+  <TestSettings name="default" id="37cf1cd1-4abd-4354-b4d3-f0c967f28c07">
+    <Deployment runDeploymentRoot="gclynch_TU-3P78063_2021-09-27_16_22_46" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="1e61b60b-e7ee-4e6e-a2e2-ae27f86bac4c" testId="71dfb0b2-8559-c998-0581-352b2b2e0a9b" testName="CreateAccountWithInvalidOverdraftLimit" computerName="TU-3P78063" duration="00:00:00.0014466" startTime="2021-09-27T16:22:46.3800120+01:00" endTime="2021-09-27T16:22:46.3816368+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e61b60b-e7ee-4e6e-a2e2-ae27f86bac4c" />
+    <UnitTestResult executionId="7892cc5c-0cf4-407e-9bab-5531d2cc01d6" testId="f01bce85-e4fe-c6d8-eeef-00b63320e8c5" testName="TestDepositAndWithdrawal3" computerName="TU-3P78063" duration="00:00:00.0003651" startTime="2021-09-27T16:22:46.3821117+01:00" endTime="2021-09-27T16:22:46.3825641+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7892cc5c-0cf4-407e-9bab-5531d2cc01d6" />
+    <UnitTestResult executionId="214e1b49-0650-4217-941d-b10ae019961e" testId="dd4f7bb2-c22d-4acb-df7a-43f20e308311" testName="TestDeposit1" computerName="TU-3P78063" duration="00:00:00.0032505" startTime="2021-09-27T16:22:46.3519545+01:00" endTime="2021-09-27T16:22:46.3746391+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="214e1b49-0650-4217-941d-b10ae019961e" />
+    <UnitTestResult executionId="06ab2ada-4994-4335-84d9-35c6f802da99" testId="873d9cba-6ae0-0c79-14bb-ca3e39430e4b" testName="TestDepositAndWithdrawal1" computerName="TU-3P78063" duration="00:00:00.0001576" startTime="2021-09-27T16:22:46.3816792+01:00" endTime="2021-09-27T16:22:46.3819124+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06ab2ada-4994-4335-84d9-35c6f802da99" />
+    <UnitTestResult executionId="165babb4-f054-452b-8c5e-13c5aa3443db" testId="b4d80940-1e54-2f7d-b107-17f8db013d9b" testName="TestDepositAndWithdrawal4" computerName="TU-3P78063" duration="00:00:00.0002597" startTime="2021-09-27T16:22:46.3825779+01:00" endTime="2021-09-27T16:22:46.3829373+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="165babb4-f054-452b-8c5e-13c5aa3443db" />
+    <UnitTestResult executionId="f853071f-a930-45f0-98d0-0ea1d47cac5e" testId="bcec695f-8e88-262d-b5b8-a9fc68fa4ac2" testName="TestDepositAndWithdrawal2" computerName="TU-3P78063" duration="00:00:00.0001143" startTime="2021-09-27T16:22:46.3819335+01:00" endTime="2021-09-27T16:22:46.3821000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f853071f-a930-45f0-98d0-0ea1d47cac5e" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestDeposit1" storage="c:\gc\github actions\bankci 2021\bankunittestproject\bin\debug\netcoreapp3.1\bankunittestproject.dll" id="dd4f7bb2-c22d-4acb-df7a-43f20e308311">
+      <Execution id="214e1b49-0650-4217-941d-b10ae019961e" />
+      <TestMethod codeBase="C:\GC\Github Actions\bankCI 2021\BankUnitTestProject\bin\Debug\netcoreapp3.1\BankUnitTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="BankUnitTestProject.UnitTest1" name="TestDeposit1" />
+    </UnitTest>
+    <UnitTest name="TestDepositAndWithdrawal4" storage="c:\gc\github actions\bankci 2021\bankunittestproject\bin\debug\netcoreapp3.1\bankunittestproject.dll" id="b4d80940-1e54-2f7d-b107-17f8db013d9b">
+      <Execution id="165babb4-f054-452b-8c5e-13c5aa3443db" />
+      <TestMethod codeBase="C:\GC\Github Actions\bankCI 2021\BankUnitTestProject\bin\Debug\netcoreapp3.1\BankUnitTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="BankUnitTestProject.UnitTest1" name="TestDepositAndWithdrawal4" />
+    </UnitTest>
+    <UnitTest name="TestDepositAndWithdrawal2" storage="c:\gc\github actions\bankci 2021\bankunittestproject\bin\debug\netcoreapp3.1\bankunittestproject.dll" id="bcec695f-8e88-262d-b5b8-a9fc68fa4ac2">
+      <Execution id="f853071f-a930-45f0-98d0-0ea1d47cac5e" />
+      <TestMethod codeBase="C:\GC\Github Actions\bankCI 2021\BankUnitTestProject\bin\Debug\netcoreapp3.1\BankUnitTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="BankUnitTestProject.UnitTest1" name="TestDepositAndWithdrawal2" />
+    </UnitTest>
+    <UnitTest name="TestDepositAndWithdrawal1" storage="c:\gc\github actions\bankci 2021\bankunittestproject\bin\debug\netcoreapp3.1\bankunittestproject.dll" id="873d9cba-6ae0-0c79-14bb-ca3e39430e4b">
+      <Execution id="06ab2ada-4994-4335-84d9-35c6f802da99" />
+      <TestMethod codeBase="C:\GC\Github Actions\bankCI 2021\BankUnitTestProject\bin\Debug\netcoreapp3.1\BankUnitTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="BankUnitTestProject.UnitTest1" name="TestDepositAndWithdrawal1" />
+    </UnitTest>
+    <UnitTest name="TestDepositAndWithdrawal3" storage="c:\gc\github actions\bankci 2021\bankunittestproject\bin\debug\netcoreapp3.1\bankunittestproject.dll" id="f01bce85-e4fe-c6d8-eeef-00b63320e8c5">
+      <Execution id="7892cc5c-0cf4-407e-9bab-5531d2cc01d6" />
+      <TestMethod codeBase="C:\GC\Github Actions\bankCI 2021\BankUnitTestProject\bin\Debug\netcoreapp3.1\BankUnitTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="BankUnitTestProject.UnitTest1" name="TestDepositAndWithdrawal3" />
+    </UnitTest>
+    <UnitTest name="CreateAccountWithInvalidOverdraftLimit" storage="c:\gc\github actions\bankci 2021\bankunittestproject\bin\debug\netcoreapp3.1\bankunittestproject.dll" id="71dfb0b2-8559-c998-0581-352b2b2e0a9b">
+      <Execution id="1e61b60b-e7ee-4e6e-a2e2-ae27f86bac4c" />
+      <TestMethod codeBase="C:\GC\Github Actions\bankCI 2021\BankUnitTestProject\bin\Debug\netcoreapp3.1\BankUnitTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="BankUnitTestProject.UnitTest1" name="CreateAccountWithInvalidOverdraftLimit" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="71dfb0b2-8559-c998-0581-352b2b2e0a9b" executionId="1e61b60b-e7ee-4e6e-a2e2-ae27f86bac4c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f01bce85-e4fe-c6d8-eeef-00b63320e8c5" executionId="7892cc5c-0cf4-407e-9bab-5531d2cc01d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd4f7bb2-c22d-4acb-df7a-43f20e308311" executionId="214e1b49-0650-4217-941d-b10ae019961e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="873d9cba-6ae0-0c79-14bb-ca3e39430e4b" executionId="06ab2ada-4994-4335-84d9-35c6f802da99" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b4d80940-1e54-2f7d-b107-17f8db013d9b" executionId="165babb4-f054-452b-8c5e-13c5aa3443db" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bcec695f-8e88-262d-b5b8-a9fc68fa4ac2" executionId="f853071f-a930-45f0-98d0-0ea1d47cac5e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

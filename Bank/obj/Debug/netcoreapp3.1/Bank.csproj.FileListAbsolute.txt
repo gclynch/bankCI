@@ -26,3 +26,13 @@ C:\GC\Github Actions\bankCI 2020\Bank\obj\Debug\netcoreapp3.1\Bank.dll
 C:\GC\Github Actions\bankCI 2020\Bank\obj\Debug\netcoreapp3.1\Bank.pdb
 C:\GC\Github Actions\bankCI 2020\Bank\obj\Debug\netcoreapp3.1\Bank.csproj.AssemblyReference.cache
 C:\GC\Github Actions\bankCI 2020\Bank\obj\Debug\netcoreapp3.1\Bank.GeneratedMSBuildEditorConfig.editorconfig
+C:\GC\Github Actions\bankCI 2021\Bank\bin\Debug\netcoreapp3.1\Bank.deps.json
+C:\GC\Github Actions\bankCI 2021\Bank\bin\Debug\netcoreapp3.1\Bank.dll
+C:\GC\Github Actions\bankCI 2021\Bank\bin\Debug\netcoreapp3.1\Bank.pdb
+C:\GC\Github Actions\bankCI 2021\Bank\obj\Debug\netcoreapp3.1\Bank.csproj.AssemblyReference.cache
+C:\GC\Github Actions\bankCI 2021\Bank\obj\Debug\netcoreapp3.1\Bank.GeneratedMSBuildEditorConfig.editorconfig
+C:\GC\Github Actions\bankCI 2021\Bank\obj\Debug\netcoreapp3.1\Bank.AssemblyInfoInputs.cache
+C:\GC\Github Actions\bankCI 2021\Bank\obj\Debug\netcoreapp3.1\Bank.AssemblyInfo.cs
+C:\GC\Github Actions\bankCI 2021\Bank\obj\Debug\netcoreapp3.1\Bank.csproj.CoreCompileInputs.cache
+C:\GC\Github Actions\bankCI 2021\Bank\obj\Debug\netcoreapp3.1\Bank.dll
+C:\GC\Github Actions\bankCI 2021\Bank\obj\Debug\netcoreapp3.1\Bank.pdb

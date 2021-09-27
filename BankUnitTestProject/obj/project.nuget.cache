@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MSzLAMTtCiTQ0TDlB4hcJpljscERI0xZWvmItfh65bad0dcrX5e2hzUhLgKDnT0Sa2FeHiYJwJvT5v4kc+pTdg==",
+  "dgSpecHash": "GoEHfevPmP0QgHbJN0QuJQwWvk0IzuMuvdJQR8cyojh/gpaiAE4iia5LIFah/B0Wmgt1j+8oU/o6aN4NHN3MZw==",
   "success": true,
-  "projectFilePath": "C:\\GC\\Github Actions\\bankCI 2020\\BankUnitTestProject\\BankUnitTestProject.csproj",
+  "projectFilePath": "C:\\GC\\Github Actions\\bankCI 2021\\BankUnitTestProject\\BankUnitTestProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gclynch\\.nuget\\packages\\coverlet.collector\\1.2.1\\coverlet.collector.1.2.1.nupkg.sha512",
     "C:\\Users\\gclynch\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
