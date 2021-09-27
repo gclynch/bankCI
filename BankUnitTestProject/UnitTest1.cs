@@ -14,7 +14,7 @@ namespace BankUnitTestProject
             CurrentAccount acc = new CurrentAccount();
             acc.Deposit(100);
             acc.Deposit(200);
-            Assert.AreEqual(301, acc.Balance);
+            Assert.AreEqual(300, acc.Balance);
         }
 
         [TestMethod]

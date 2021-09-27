@@ -34,8 +34,11 @@ jobs:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+    - name: Run unit tests 1
+      run: dotnet test  --collect "Code coverage"
+
     # run standard unit tests
-    - name: Run Unit Tests
+    - name: Run Unit Tests 2
       run: dotnet test BankUnitTestProject/BankUnitTestProject.csproj --no-restore --verbosity normal
 
     # run Specflow+ tests
