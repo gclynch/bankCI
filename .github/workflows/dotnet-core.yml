@@ -36,11 +36,11 @@ jobs:
 
     # run standard unit tests
     - name: Run Unit Tests
-      run: dotnet test BankUnitTestProject/BankUnitTestProject.csproj --no-restore --verbosity normal -l:trx
+      run: dotnet test BankUnitTestProject/BankUnitTestProject.csproj  --verbosity normal -l:trx
 
     # run Specflow+ tests
     - name: Run Acceptance Tests 
-      run: dotnet test BankAcceptanceTest/BankAcceptanceTest.csproj --no-restore --verbosity normal -l:trx
+      run: dotnet test BankAcceptanceTest/BankAcceptanceTest.csproj  --verbosity normal -l:trx
 
     # create NuGet package
     - name: Package for NuGet
