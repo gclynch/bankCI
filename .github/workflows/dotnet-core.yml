@@ -34,16 +34,13 @@ jobs:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Run unit tests 1
-      run: dotnet test  --collect "Code coverage"
-
     # run standard unit tests
     - name: Run Unit Tests 2
-      run: dotnet test BankUnitTestProject/BankUnitTestProject.csproj --no-restore --verbosity normal
+      run: dotnet test BankUnitTestProject/BankUnitTestProject.csproj --no-restore --verbosity normal -l:trx
 
     # run Specflow+ tests
-    - name: Run Acceptance Tests
-      run: dotnet test BankAcceptanceTest/BankAcceptanceTest.csproj --no-restore --verbosity normal
+    - name: Run Acceptance Tests 
+      run: dotnet test BankAcceptanceTest/BankAcceptanceTest.csproj --no-restore --verbosity normal -l:trx
 
     # create NuGet package
     - name: Package for NuGet
